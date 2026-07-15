@@ -1,0 +1,58 @@
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url("images/1.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:#fff;
+}
+
+.hero-content h1{
+font-size:70px;
+margin-bottom:15px;
+}
+
+.hero-content p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.hero-btns .btn{
+display:inline-block;
+margin:10px;
+padding:15px 30px;
+background:#d4af37;
+color:#000;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.special{
+padding:80px 20px;
+background:#111;
+color:white;
+text-align:center;
+}
+
+.cards{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.food-card{
+background:#222;
+padding:25px;
+border-radius:15px;
+width:250px;
+transition:.3s;
+}
+
+.food-card:hover{
+transform:translateY(-10px);
+}
